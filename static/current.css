@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./images/food_clock.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    color: white;
+    font-size: 3em;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #42d1be;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}

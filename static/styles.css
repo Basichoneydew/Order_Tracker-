@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./images/table-food-over-the-top.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    color: white;
+    font-size: 3em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+button {
+    margin: 0 15px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.25em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#order-status {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

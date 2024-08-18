@@ -5,13 +5,26 @@
     <meta charset="UTF-8">
     <title>Order Tracker</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+    <link rel="stylesheet" href="../static/styles.css">
+    <!--Custom Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>QuickBite</h1>
-    <button id="place-order">Place Order</button>
-    <button id="view-current-orders">View Current Orders</button>
-    <button id="view-past-orders">View Past Orders</button>
+    <h1 class="anton-regular">QuickBite</h1>
+    <div class="button-container">
+        <a href="restaurants.html" class="button-link">
+            <button id="place-order" class="anton-regular">Place Order</button>
+        </a>
+        <a href="view_current.html" class="button-link">
+            <button id="view-current-orders" class="anton-regular">View Current Orders</button>
+        </a>
+        <a href="view_past.html" class="button-link">
+            <button id="view-past-orders" class="anton-regular">View Past Orders</button>
+        </a>
+    </div>
     <div id="order-status"></div>
 
     <script>

@@ -26,6 +26,11 @@ class Order(db.Model):
 def index():
     return render_template('index.html')
 
+@app.route('/view_current')
+def view_current():
+    orders = Order.query.all()
+    return render_template('view_current.html', orders=orders)
+
 
 @socketio.on('connect')
 def handle_connect():
